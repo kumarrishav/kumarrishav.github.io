@@ -789,3 +789,11 @@
 table, th, td {
     border: 1px solid black;   
 }
+
+#progressbar {
+	height: 18px;
+	background: green;
+	margin-left: 1%;
+}
+
+

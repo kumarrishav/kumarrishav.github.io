@@ -1,350 +1,240 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>New bie in open source world</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.scrolly.min.js"></script>
-		<script src="js/jquery.scrollzer.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<script>
-  			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  			ga('create', 'UA-64012643-1', 'auto');
-  			ga('send', 'pageview');
-
-		</script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" type="text/css" href="override.css">
-			<link rel="stylesheet" href="css/style-wide.css" />
-		</noscript>
-		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<title>Life inside Developer Console</title>
+		<link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico' />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body>
 
-		<!-- Header -->
-			<div id="header" class="skel-layers-fixed">
-
-				<div class="top">
-
-					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar48"><img src="images/profile.png" alt="" /></span>
-							<h1 id="title">Kumar Rishav</h1>
-							<p>Software Developer</p>
-						</div>
-
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
-								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
-								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
-							</ul>
-						</nav>
-						
-				</div>
-				
-				<div class="bottom">
-
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="https://twitter.com/_rishavraj" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="https://www.facebook.com/rishav.raj.737001" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="https://github.com/kumarrishav" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a href="http://in.linkedin.com/pub/kumar-rishav/70/114/bab" class="icon"><img src="images/linkedin.png" style="width:25px;height:25px;position:absolute;top: 20%;left:57%;"><span class="label">LinkedIn</span></a>
-							</li>
-							<li><a href="https://plus.google.com/u/0/+KumarRishav006/" class="icon"><img src="images/googleplus.png" style="width:19px;height:19px;position:absolute;top: 25%;left:70%;"><span class="label">Google Plus</span></a>
-							</li>
-							<li><a href="https://rishav006.wordpress.com" class="icon"><img src="images/wordpress.png" style="width:20px;height:20px;position:absolute;top: 25%;left:81%;"><span class="label">Wordpress Blog</span></a>
-							</li>
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>				
+							<li><img src="images/profile.png" alt="" data-position="top center"/></li>
+							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#one">Skills i have</a></li>
+							<li><a href="#two">Bit more about Me</a></li>
+							<li><a href="#three">Get in touch</a></li>
 						</ul>
-				
+					</nav>
 				</div>
-			
-			</div>
+			</section>
 
-		<!-- Main -->
-			<div id="main">
+		<!-- Wrapper -->
+			<div id="wrapper">
 
 				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
-
-							<header>
-								<h2 class="alt"><strong>Kumar Rishav</strong></h2>
-<p>Intern at Google Summer of Code - MOZILLA <br/> Application developer, Coding Freak, Bug Hunter, Open Source Enthusiastic & Evangelist</p>
-							</header>
-							
-							<footer>
-								<a href="images/resume.pdf" class="button scrolly">Download Resume/CV</a>
-							</footer>
-
-						</div>
-					</section>
-
-				<!-- About Me -->
-					<section id="about" class="three">
-						<div class="container">
-
-							<header>
-								<h2>About Me</h2>
-							</header>
-
-							<!--<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" />
-							</a>-->
-							<p style="font-size:25px;text-align:left;font-family:New Times Roman;">
-							<b>Education</b>
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>Kumar Rishav</h1>
+							<p>Developer in Beta phase<br/>
+							Intern at Google Summer of Code @ MOZILLA<br/> 
+							Coding Freak, Open Source Enthusiastic & Evangelist</br>
+							<!--Eventually, will Graduate in CSE from NIT TRICHY by May, 2016-->
 							</p>
-							
-							<table>
-							<tr><td>University</td><td>Course</td><td>Year</td>
-							<td>CGPA/%</td>
-							</tr>
-							<tr><td>National Institute of
-							Technology, Trichy</td><td>Computer Science &
-							Engineering</td><td>2012-2016</td>
-							<td>8.2/10</td>
-							</tr>
-							<tr><td>St.Joseph Public School, Samastipur </td><td>Senior Secondary</td><td>2011</td>
-							<td>75%</td>
-							</tr>
-							<tr><td>St.Joseph Public School, Samastipur </td><td>Secondary</td><td>2009</td>
-							<td>94.4%</td>
-							</tr>
-							</table>
-
-							<p style="font-size:25px;text-align:left;font-family:New Times Roman;">
-							<b>Work & Position of Responsibility </b>
-							</p>
-							<ul style="list-style-type:square">
-							<li style="text-align:left;">
-							Developer & Open Source Contributor at <a href="https://www.mozilla.org">Mozilla</a> on <a href="https://github.com/mozilla-b2g/gaia/">Firefox OS</a> Project
-							&nbsp;&nbsp;
-							<span style="color:blue;font-size:15px;">
-							[From Jan 2014 - Present]
-							</span>
-							</li>
-							<li style="text-align:left;">
-							Contributor at Applait Projects and Atom packages</a>
-							&nbsp;&nbsp;
-							<span style="color:blue;font-size:15px;">
-							[From Jan 2015 - May 2015]
-							</span>
-							</li>
-							<li style="text-align:left;">
-							Firefox OS <a href="https://marketplace.firefox.com/">MarketPlace</a> User's Review Moderator
-							&nbsp;&nbsp;
-							<span style="color:blue;font-size:15px;">
-							[From April 2015 - Present]
-							</span>
-							</li>
-							<li style="text-align:left;">
-							<a href="https://reps.mozilla.org/u/rishav006/ ">Mozilla Representative</a>
-							&nbsp;&nbsp;
-							<span style="color:blue;font-size:15px;">
-							[From Oct 2014 - Present]
-							</span>
-							</li>
-							<li style="text-align:left;">
-							Web developer at <a href="http://spider.nitt.edu/">Spider
-							</a>
-							&nbsp;&nbsp;
-							<span style="color:blue;font-size:15px;">
-							[From August 2013 - Present]
-							</span>
-							</li>
-							<li style="text-align:left;">
-							Manager at <a href="http://www.pragyan.org/">Pragyan: International Techno-management Organisation
-							</a>
-							&nbsp;&nbsp;
-							<span style="color:blue;font-size:15px;">
-							[From August 2014 - April 2015]
-							</span>
-							</li>
-							<li style="text-align:left;">
-							Member of Design Team at <a href="http://www.nitt.edu/home/academics/departments/cse/events/">Bits & Bytes – Newsletter of CSE Dept , NIT Trichy
-							</a>
-							&nbsp;&nbsp;
-							<span style="color:blue;font-size:15px;">
-							[From August 2014 - March 2014]
-							</span>
-							</li>
-							<li style="text-align:left;">
-							Manager at <a href="http://vortex.org.in/15/home/">Vortex - 2015, National Level Technical Symposium of CSE Dept, NIT Trichy 
-							</a>
-							&nbsp;&nbsp;
-							<span style="color:blue;font-size:15px;">
-							[From Nov 2014 - Present]
-							</span>
-							</li>
-							</ul>
-
-							<p style="font-size:25px;text-align:left;font-family:New Times Roman;">
-							<b>Skills</b>
-							<ul>
-							<li style="text-align:left;">Experienced of working with people globally</li>
-							<li style="text-align:left;">Ability to work with and motivate volunteers</li>
-							<li style="text-align:left;">Written real-world, long-term-maintainable software as part of a globally distributed team</li>
-							</ul>
-							<table style="width:50%">
-							<h4 style="float:left">Language/Graphic - Design Skill</h4></br>
-							<tr><td >HTML</td><td><div id="progressbar"style="width: 90%;"></div></td></tr>
-							<tr><td >CSS</td><td><div id="progressbar"style="width: 90%;"></div></td></tr>
-							<tr><td >JavaScript</td><td><div id="progressbar"style="width: 90%;"></div></td></tr>
-                                                        <tr><td >MySql</td><td><div id="progressbar"style="width: 70%;"></div></td></tr>
-                                                        <tr><td >PHP</td><td><div id="progressbar"style="width: 70%;"></div></td></tr>
-							<tr><td >C++</td><td><div id="progressbar"style="width: 70%;"></div></td></tr>
-							<tr><td >C</td><td><div id="progressbar"style="width:65%;"></div></td></tr>
-							<tr><td >NodeJs</td><td><div id="progressbar"style="width: 55%;"></div></td></tr>
-							<tr><td >Python</td><td><div id="progressbar"style="width: 35%;"></div></td></tr>
-                                                        <tr><td >CoffeeScript</td><td><div id="progressbar"style="width: 30%;"></div></td></tr>
-                                                        <tr><td >R</td><td><div id="progressbar"style="width: 30%;"></div></td></tr>
-							<tr><td >PhotoShop</td><td><div id="progressbar"style="width: 30%;"></div></td></tr>
-							<tr><td style="width:40%">Version Control: Git</td><td><div id="progressbar"style="width:70%;"></div></td></tr>
-							<tr><td >Linux</td><td><div id="progressbar"style="width: 65%;"></div></td></tr>
-							</table>
-							<ul style="position:absolute;left:78%; margin-top:-38%;list-style-type:disc">
-							Frameworks/Libraries
-							<li style="text-align:left;">jQuery</li>
-							<li style="text-align:left;">ExpressJS</li>
-							<li style="text-align:left;">Bootstrap</li>
-							<li style="text-align:left;">Chai.JS</li>
-							<li style="text-align:left;">Sinon.JS</li>
-							<li style="text-align:left;">Jasmine</li>
-							</ul>
-
-							
-
-						</div>
-					</section>
-								
-				<!-- Portfolio -->
-					<section id="portfolio" class="two">
-						<div class="container">
-					
-							<header>
-								<h2>Projects & Experiences</h2>
-							</header>
-							
-							<p style="font-size:25px;text-align:left;font-family:New Times Roman;">
-							<b>Internship</b>
-							</p>
-							<ul style="list-style-type:square">
-							<li style="text-align:left;">
-							Intern at Google: Google summer of Code - 2014 
-							&nbsp;
-							<a href="https://www.google-melange.com/gsoc/project/details/google/gsoc2014/kumar_rishav/5668600916475904">Project Page</a>&nbsp;
-							<a href="https://bugzilla.mozilla.org/user_profile?login=gsvelto%40mozilla.com">Mentor: Gabriele Svelto</a>
-							</li>
-							<p style="font-size:25px;text-align:left;font-family:New Times Roman;">
-							<b>Projects</b></p>
-							<li style="text-align:left;">
-							Find project details on<a href="http://in.linkedin.com/pub/kumar-rishav/70/114/bab">
-							LinkedIn</a>
-						        <p style="font-size:25px;text-align:left;font-family:New Times Roman;">
-                                                        <b>Experiences</b></p>
-							<p style="text-align:center; margin: 0% 7% "> 
-							Two year experience of working on open source projects, solving real time problems, writing and deploying production codes along with specs, testing of application (unit-test & integration-test), and good understanding of drafting & design of applications and open source evangelism.
-							Listed in <a href="https://www.mozilla.org/credits/">Mozilla credits</a> page for active contribution in Mozilla.
-							</p></br>
-							<li style="text-align:left;">
-							Speaker at <a href="http://www.vitgravitas.com/">Gravitas</a>, VIT Vellore on HTML5 and App dev (Sep - 2014)
-							</li>
-							<li style="text-align:left;">
-							Participant (Mentor role too) at Codesprint Hackathon
-							at Hackerearth
-							</li>
-							<li style="text-align:left;">
-							Speaker at Developer Boot Camp, Indore (Sep - 2014)
-							</li>
-							<li style="text-align:left;">
-							Lightning talk on open source contribution at MozCamp India – Bangalore (June-2014) 
-							</li>
-							<li style="text-align:left;">
-							Speaker at Firefox OS App days, Indore (March - 2014)  
-							</li>
-                                                        <li style="text-align:left;">
-                                                        Invited for Mozilla Work Week, Whistler Village, Vancouver, Canada
-                                                        </li>
-							<li style="text-align:left;">
-							Proposal accepted for Appmaker & Together.JS session at <a href="http://2014.mozillafestival.org/"> MozFest</a>, London (couldn't attend)  
-							</li>
-							</ul>
-							<ul style="list-style-type:circle">
-							<p style="font-size:25px;text-align:left;font-family:New Times Roman;">
-							<b>References</b></p>
-							<li style="text-align:left;">
-							Aleh Zasypkin : <a href="de.linkedin.com/in/alehzasypkin">LinkedIn</a>
-							</li>
-							<li style="text-align:left;">
-							Julien Wajesbergh : felash@gmail.com
-							</li>
-							<li style="text-align:left;">
-							Gabriele Svelto : <a href="nl.linkedin.com/pub/gabriele-svelto/10/287/502">LinkedIn</a>
-							</li>
-
-						</div>
-					</section>
-
-				<!-- Contact -->
-					<section id="contact" class="four">
-						<div class="container">
-
-							<header>
-								<h2>Contact</h2>
-							</header>
-							<ul style="list-style-type:disc">
-							<li style="text-align:center;list-style-type:none">
-							Reach me @ : rishav006@gmail.com
-							</li></br>
-							<li style="text-align:left;">
-							<a href="https://rishav006.wordpress.com">
-							Personal Blog</a></li>
-							<li style="text-align:left;">
-							<a href="https://github.com/kumarrishav">Github Profile</a></li>
-							<li style="text-align:left;">
-							<a href="http://in.linkedin.com/pub/kumar-rishav/70/114/bab">LinkedIn Profile</a></li>
-							<li style="text-align:left;"><a href="https://bugzilla.mozilla.org/user_profile?login=rishav006%40gmail.com">
-							Bugzilla Mail : rishav006@gmail.com</a></li>
-							<li style="text-align:left;">
-							<a href=" https://reps.mozilla.org/u/rishav006/">Mozilla Rep Profile</a></li>
-							<li style="text-align:left;">
-							<a href=" https://mozillians.org/en-US/u/rishav006/">Mozillians Profile </a></li>
-							<li style="text-align:left;">
-							<a href="https://twitter.com/_rishavraj">Twitter handle : @_rishavraj</a></li>
-							<li style="text-align:left;">
-							Irc Nickname : rishav_ &nbsp;&nbsp;(channel: #gaia, #gaia-messaging)</li>
-							<li style="text-align:left;">
-							<a href="https://www.facebook.com/rishav.raj.737001">Facebook Profile</a></li>
-							</li>
+							<ul class="actions">
+								<li><a href="#one" class="button scrolly">More about Me - Resume</a></li>
 							</ul>
 						</div>
 					</section>
-			
+
+				<!-- One -->
+					<section id="one" class="wrapper style2 spotlights">
+						<!--<section>
+							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Sed ipsum dolor</h2>
+									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<ul class="actions">
+										<li><a href="#" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>-->
+						<section>
+							<a href="#" class="image"><img src="images/language.jpg" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Language / Tool / Platform</h2>
+									<!--<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>-->
+									<ul class="actions">
+										<li><a href="https://github.com/kumarrishav" class="button">Checkout more @Github</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/framework.jpg" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Library / Framework / Module</h2>
+									<!--<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>-->
+									<ul class="actions">
+										<li><a href="https://github.com/kumarrishav" class="button">Checkout more @Github</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>So far;</h2>
+							<p>Two year experience of working on open source projects, solving real time problems, writing and deploying production codes along with specs/tests, testing of application, and good understanding of drafting & design of applications and open source evangelism.</p>
+							<div class="features">
+								<section>
+									<span class="icon major fa-code"></span>
+									<h3>Internship</h3>
+									<ul><p>
+									<li>Intern at Google Summer of Code - 2014 under Mozilla Organisation on Firefox OS project.
+									</li>
+									</p></ul>
+								</section>
+								<section>
+									<span class="icon major fa-cog"></span>
+									<h3>Position of Responsibility</h3>
+									<ul><p>
+									<li>Developer & Open Source Contributor @ Mozilla</li>
+									<li>Web developer at Spider - R&D Club of NITT</li>
+									<li>An active Mozilla Representative.</li>
+									<li>Manager position at Pragyan 2015 - TechFest of NITT</li>
+									<li>Manager position at Vortex 2015 - Technical symposium of CSE, NITT</li>
+									</p></ul>
+								</section>
+								<section>
+									<span class="icon major fa-desktop"></span>
+									<h3>Major Projects</h3>
+									<p>(Open source & self undertaken)</p>
+									<ul><p>
+									<li>Opinion mining of Real time events - Final year project
+									<br/>ongoing
+									</li>
+									<!--<li>Online service booking application - College (7th Sem) project
+									<br/>Oct'15- Nov'15</li>-->
+									<li>Undo Implementation of Delete & Read actions in messaging application of FireFox OS
+									<br/>Jan'15 - March'15</li>
+									<!--<li>Adding functionality in Finderjs Library and Finder App - Applait products
+									<br/>Aug'14 - Dec'14</li>-->
+									<li>Improved messaging functionality and interaction in the Messaging application of FireFox OS
+									<br/> May'14 - Aug'14</li>
+                                   	<!--<li>Discussion forum for Spider Club
+                                   	<br/> Oct'13 - Nov'13</li>-->
+									</p></ul>
+
+									<!--<ul class="actions">
+										<li>
+											<a href="http://in.linkedin.com/pub/kumar-rishav/70/114/bab" class="button">More details on LinkedIn</a>
+										</li>
+									</ul>-->
+									<blockquote>Other Major & Minor projects are on <br/> Resume & LinkedIn</blockquote>
+								</section>
+								<section>
+									<span class="icon major fa-diamond"></span>
+									<h3>Mozilla MeetUPs </h3>
+									<ul><p>
+									<li>Attended <a href="https://wiki.mozilla.org/All_Hands/2015_Orlando">Mozilla Work-Week</a> - 2015 @ Orlando, USA</li>
+									<li>Invited for <a href="https://wiki.mozilla.org/All_Hands/2015_Whistler">Mozilla Work-Week</a> - 2015 @ Whistler villiage, Vancouver, Canada. Couldn't attend due to visa delay</li>
+									<li>Attended <a href="https://wiki.mozihttps://reps.mozilla.org/e/mozilla-india-task-force-meetup-2015/">Mozilla India Task Force Meetup 2015</a> - May '15 @ Bangalore</li>
+									<li>Attended MozCamp Bangalore - June '14 @ Bangalore</li>
+									</p></ul>			
+								</section>
+								<section>
+									<span class="icon major fa-chain"></span>
+									<h3>My Talks</h3>
+									<ul><p>
+									<li>March'16 : Speaker <br/>[It's all about FOSS] @ NIT PondicherrY</li>
+									<li>Jan'16 : Speaker <br/>[Version Control Sytems] @ NIT Trichy</li>
+									<li>Sep'15 : Speaker <br/>[HTML5 application dev] @ Gravitas VIT Vellore</li>
+									<li>May'15 : Speaker <br/>[TechFest - Tachyon] @ JUET Guna, Bhopal</li>
+									<li>March'15 : Speaker <br/>[TechFest - Anokha] @ Amrita University, Coimbatore</li>
+									</p></ul>
+								</section>
+								<section>
+									<span class="icon major fa-chain"></span>
+									<h3>& Talks...</h3>
+									<ul><p>
+									<li>Sep'14 : Speaker <br/>[Developer Boot Camp] @ Oriental, Indore</li>
+									<li>Sep'14 : Speaker <br/>[Firefox OS & Web APIs] @ Gravitas VIT Vellore</li>
+									<li>June'14 : Lightning talk <br/>[Open source contribution] @ MozCamp India, Bangalore</li>
+									<li>March'14 : Speaker <br/>[Firefox OS App Days] @ Indore</li>
+									</p></ul>
+								</section>
+							</div>
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h3>References</h3>
+							<div class="split style1">
+								<section>
+									<ul><p>
+									<li>Julien Wajesbergh : jwajsberg@mozilla.com</li>
+									<li>Aleh Zasypkin : <a href="https://de.linkedin.com/in/alehzasypkin">LinkedIn</a></li>
+									<li>Gabriele Svelto : <a href="https://nl.linkedin.com/pub/gabriele-svelto/10/287/502">LinkedIn</a></li>
+									</p></ul>
+								</section>
+								<section>
+									<ul class="contact">
+										<li>
+											<h3>Reach me @ Address</h3>
+											<span>Room - 45, Garnet C<br />
+											NIT TRICHY, TamilNadu - 620015<br />
+											India</span>
+										</li>
+										<li>
+											<h3>Email</h3>
+											<a href="mailto:rishav006@gmail.com">rishav006@gmail.com</a>
+										</li>
+										<li>
+											<h3>Phone</h3>
+											<span>(+91) xxxxx-xxxxx</span>
+										</li>
+										<li>
+											<h3>Social</h3>
+											<ul class="icons">
+												<li><a href="https://twitter.com/_rishavraj" class="fa-twitter"><span class="label">Twitter</span></a></li>
+												<li><a href="https://www.facebook.com/rishav.raj.737001" class="fa-facebook"><span class="label">Facebook</span></a></li>
+												<li><a href="https://github.com/kumarrishav" class="fa-github"><span class="label">GitHub</span></a></li>
+												<!--<li><a href="#" class="fa-instagram"><span class="label">Instagram</span></a></li>-->
+												<li><a href="http://in.linkedin.com/pub/kumar-rishav/70/114/bab" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
+											</ul>
+										</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</section>
+
 			</div>
 
 		<!-- Footer -->
-			<div id="footer">
-				
-				<!-- Copyright -->
-					<ul>
-					<li>&copy; 2015 <a href="https://kumarrishav.github.io">Kumar Rishav</a></li>
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Ultron. All rights reserved.</li>
 					</ul>
-				
-			</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
